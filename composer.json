@@ -1,0 +1,25 @@
+{
+  "name": "neogroup/neophp-net",
+  "description": "Sockets support for PHP",
+  "keywords": ["sockets", "php"],
+  "license": "MIT",
+  "homepage": "https://github.com/luismanuelamengual/NeoPHP-Net",
+  "authors":
+  [
+    {
+      "name": "Luis Manuel Amengual",
+      "email": "luismanuelamengual@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0.0"
+  },
+  "autoload": {
+    "psr-4": { "": "src/" }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
